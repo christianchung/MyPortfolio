@@ -8,6 +8,9 @@ size: 50,
 color: "red"
 };
 
+var fishImage = new Image();
+fishImage.src = "fish.png";
+
 // Add the fish to the pond
 fishPond.appendChild(fish);
 
