@@ -65,11 +65,11 @@ const AboutSection = () => {
             </p>
             <div className='flex flex-row mt-6'>
               <TabButton selectTab={() => handleTabChange("education")} active ={tab === "education"}
-              > {" "}Education{" "} </TabButton>
+              > Education </TabButton>
               <TabButton selectTab={() => handleTabChange("WebDev")} active ={tab === "WebDev"}
-              > {" "}WebDev{" "} </TabButton>
+              > WebDev </TabButton>
               <TabButton selectTab={() => handleTabChange("AI/Data")} active ={tab === "AI/Data"}
-              > {" "}AI/Data{" "} </TabButton>
+              > AI/Data </TabButton>
             </div>
             <div className='mt-8'>{TAB_DATA.find((t) => t.id === tab).content}</div>
           </div>
